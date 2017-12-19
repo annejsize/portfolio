@@ -1,0 +1,345 @@
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*font saved
+
+font-family: 'Fjalla One', sans-serif;}
+font-family: 'Roboto Slab', serif;*/
+/* orange:   color: #F7941E;*/
+* {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #F7941E;
+}
+
+.font-orange {
+  color: black;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* General
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.spacing {
+  margin: 2%;
+  padding: 1px;
+}
+
+.left-spacing {
+  margin-left: 3%;
+}
+
+
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.nav {
+  margin: 1% 4% 1% 4%;
+}
+
+#nav-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  text-transform: lowercase;
+  color: black;
+  margin-top: 5%;
+}
+
+#the-logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  display: inline-block;
+}
+
+.nav ul {
+    width: 100%;
+    float: right;
+}
+
+ol, ul {
+    list-style: none;
+    vertical-align: baseline;
+}
+
+.nav li {
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+}
+
+*.icons {
+  color: black;
+  font-size: 30px;
+  padding-right: 3%;
+}
+
+
+/* Hero Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero {
+  padding: 0;
+  width: 100%;
+  min-height: 550px;
+  text-align: center;
+  background-color: #79bcb4;
+  color: white;
+}
+
+#intro {
+  margin-top: 7%;
+  text-align: center;
+  font-size: 90px;
+  text-shadow: 1px 1px 0px white;
+}
+
+.intro-p {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.intro-light {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 3%;
+}
+
+#add-space {
+  margin-right: 10%
+}
+/* Work/Portfolio
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero-skills {
+  margin: 1%;
+  text-align: center;
+
+}
+
+#work {
+  padding: 0;
+  width: 100%;
+  background-color: #79bcb4;
+  height: 55%;
+}
+
+#work-porf{
+    padding: 0;
+    width: 100%;
+    min-height: 550px;
+    background-color: #e4e4e4;
+    color: black;
+}
+
+#work-title {
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.big-img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+/* SHADOWING */
+  -webkit-box-shadow: 6px 3px 45px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 3px 45px -9px rgba(0,0,0,0.75);
+  box-shadow: 6px 3px 45px -9px rgba(0,0,0,0.75);
+}
+
+.fancy {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  font-size: 15px;
+
+}
+
+.left-port {
+    margin: 2% 5% 2% 2%;
+    text-align: right;
+}
+
+.left-port-font {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.right-port {
+      margin: 2%;
+  padding-left: 2%;
+  padding-right: 3%;
+  text-align: left;
+  border-left: .75px solid black;
+}
+
+.port-img {
+  width: 110%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.25em;
+
+}
+
+.panels {
+    text-align: left;
+    line-height: 24px;
+    margin-left: 2%;
+
+}
+
+.panels h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-bottom: -3rem;
+    font-weight: 300;
+}
+
+.panels p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+
+.squeeze {
+  margin-top: -5%;
+}
+
+/* Hover over effects */
+
+.hover figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover figure:hover img {
+	opacity: .5;
+
+}
+/* Hover over popups */
+.tooltip {
+  cursor: help; text-decoration: none;
+  position: relative;
+}
+
+.tooltip span {
+  margin-left: -999em;
+  position: absolute;
+}
+
+.tooltip:hover span {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 100;
+  position: absolute;
+  left: -1em;
+  top: -5em;
+  z-index: 99;
+  margin-left: 0;
+  width: 250px;
+  /* SHADOWING */
+    -webkit-box-shadow: 6px 3px 45px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 3px 45px -9px rgba(0,0,0,0.75);
+    box-shadow: 6px 3px 45px -9px rgba(0,0,0,0.75);
+  color: black;
+
+}
+
+.tooltip:hover img {
+  border: 0;
+  margin: 0 0 0 0;
+  position: absolute;
+}
+
+.tooltip:hover em {
+  font-family: 'Fjalla One', sans-serif
+  font-size: 1.2em;
+  font-weight: lighter;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+.classic { padding: 1.25em 1em;
+            background: white;
+}
+
+.gimmespace {
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.line {
+  border-right: .75px solid black;
+    line-height: 18px;
+    text-align:left;
+}
+
+
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.contact-us {
+  background-color: #e4e4e4;
+  text-align: left;
+}
+.contact-us-details {
+  padding: 70px;
+}
+.contact-us-details h5 {
+  font-size: 2rem;
+}
+.contact-us-details .social-links a {
+  color: #222;
+  display: block;
+}
+
+.contact-us-details .social-links li {
+  list-style: none;
+  float: left;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.contact-us-details .social-links li:last-child {
+  margin-right: 0;
+}
+.contact-us-form {
+  padding: 70px;
+  background-color: #e4e4e4;
+}
+.contact-us .row {
+  margin: 0;
+}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#footer {
+  background-color: #79bcb4;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 2%;
+}
